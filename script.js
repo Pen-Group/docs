@@ -1,5 +1,5 @@
 (function(){
-  const docSource = "https://raw.githubusercontent.com/Pen-Group/docs/main/main/";
+  const docSource = "https://pen-group.github.io/docs/main/";
 
   const searchParams = new URLSearchParams(window.location.search);
 
