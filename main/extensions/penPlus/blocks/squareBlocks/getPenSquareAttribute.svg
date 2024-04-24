@@ -1,0 +1,45 @@
+<svg height="65" xmlns="http://www.w3.org/2000/svg" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" style="--editorTheme3-motionColor: #4C97FF; --editorTheme3-looksColor: #9966FF; --editorTheme3-soundsColor: #CF63CF; --editorTheme3-eventsColor: #FFBF00; --editorTheme3-controlColor: #FFAB19; --editorTheme3-sensingColor: #5CB1D6; --editorTheme3-operatorsColor: #59C059; --editorTheme3-dataColor: #FF8C1A; --editorTheme3-dataListsColor: #FF661A; --editorTheme3-customColor: #FF6680; --editorTheme3-PenColor: #0FBD8C; --editorTheme3-twColor: #ff4c4c; --editorTheme3-saColor: #29BEB8; --editorTheme3-inputColor: #FFFFFF; --editorTheme3-commentColor: #000000; --editorTheme3-text: white; --editorTheme3-inputColor-text: #575e75; --editorTheme3-inputColor-blackText: #000000; --editorTheme3-commentText: #ffffff; --editorTheme3-commentTextTransparent: rgba(255, 255, 255, 0.50); --editorTheme3-commentBorder: #000000ff; --editorTheme3-motion-primary: #4C97FF; --editorTheme3-motion-secondary: #4488e6ff; --editorTheme3-motion-tertiary: #3d79ccff; --editorTheme3-motion-field: #3d79ccff; --editorTheme3-looks-primary: #9966FF; --editorTheme3-looks-secondary: #8a5ce6ff; --editorTheme3-looks-tertiary: #7a52ccff; --editorTheme3-looks-field: #7a52ccff; --editorTheme3-sounds-primary: #CF63CF; --editorTheme3-sounds-secondary: #ba59baff; --editorTheme3-sounds-tertiary: #a64fa6ff; --editorTheme3-sounds-field: #a64fa6ff; --editorTheme3-event-primary: #FFBF00; --editorTheme3-event-secondary: #e6ac00ff; --editorTheme3-event-tertiary: #cc9900ff; --editorTheme3-event-field: #cc9900ff; --editorTheme3-control-primary: #FFAB19; --editorTheme3-control-secondary: #e69a17ff; --editorTheme3-control-tertiary: #cc8914ff; --editorTheme3-control-field: #cc8914ff; --editorTheme3-sensing-primary: #5CB1D6; --editorTheme3-sensing-secondary: #539fc1ff; --editorTheme3-sensing-tertiary: #4a8eabff; --editorTheme3-sensing-field: #4a8eabff; --editorTheme3-operators-primary: #59C059; --editorTheme3-operators-secondary: #50ad50ff; --editorTheme3-operators-tertiary: #479a47ff; --editorTheme3-operators-field: #479a47ff; --editorTheme3-data-primary: #FF8C1A; --editorTheme3-data-secondary: #e67e17ff; --editorTheme3-data-tertiary: #cc7015ff; --editorTheme3-data-field: #cc7015ff; --editorTheme3-data_lists-primary: #FF661A; --editorTheme3-data_lists-secondary: #e65c17ff; --editorTheme3-data_lists-tertiary: #cc5215ff; --editorTheme3-data_lists-field: #cc5215ff; --editorTheme3-more-primary: #FF6680; --editorTheme3-more-secondary: #e65c73ff; --editorTheme3-more-tertiary: #cc5266ff; --editorTheme3-more-field: #cc5266ff; --editorTheme3-pen-primary: #0FBD8C; --editorTheme3-pen-secondary: #0eaa7eff; --editorTheme3-pen-tertiary: #0c9770ff; --editorTheme3-pen-field: #0c9770ff; --editorTheme3-tw-primary: #ff4c4c; --editorTheme3-tw-secondary: #e64444ff; --editorTheme3-tw-tertiary: #cc3d3dff; --editorTheme3-tw-field: #cc3d3dff; --editorTheme3-sa-primary: #29BEB8; --editorTheme3-sa-secondary: #25aba6ff; --editorTheme3-sa-tertiary: #219893ff; --editorTheme3-sa-field: #219893ff;"><style xmlns="http://www.w3.org/1999/xhtml">
+    .blocklyText {
+        fill: #fff;
+        font-family: "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 12pt;
+        font-weight: 500;
+    }
+    .blocklyNonEditableText&gt;text, .blocklyEditableText&gt;text {
+        fill: #575E75;
+    }
+    .blocklyDropdownText {
+        fill: #fff !important;
+    }
+    .blocklyEditableText &gt; text {
+  fill: var(--editorTheme3-inputColor-text);
+}
+.blocklyHtmlInput {
+  background-color: var(--editorTheme3-inputColor);
+  color: var(--editorTheme3-inputColor-text);
+}
+
+.blocklyDropDownDiv .goog-menuitem-highlight,
+.blocklyDropDownDiv .goog-menuitem-hover,
+.sa-contextmenu-colored .blocklyContextMenu .goog-menuitem-highlight {
+  background-color: var(--editorTheme3-hoveredItem, rgba(0, 0, 0, 0.2));
+}
+
+.scratchCommentRect {
+  fill: var(--editorTheme3-commentColor);
+}
+.scratchCommentBody,
+.scratchCommentTextarea {
+  background-color: var(--editorTheme3-commentColor);
+}
+.scratchWorkspaceCommentBorder {
+  stroke: var(--editorTheme3-commentBorder);
+}
+.scratchCommentTextarea::placeholder {
+  color: var(--editorTheme3-commentTextTransparent);
+}
+.scratchCommentText {
+  fill: var(--editorTheme3-commentText);
+  color: var(--editorTheme3-commentText);
+}
+</style><g data-id="+p7h*p~jOBG[o{D{L$_," class="blocklyDraggable blocklySelected" data-shapes="reporter round" data-category="Pen+ V7" transform="translate(0,0) "><path class="blocklyPath blocklyBlockBackground" stroke="#0c9770ff" fill="#0FBD8C" fill-opacity="1" d="m 0,0 m 24,0 H 263 a 24 24 0 0 1 0 48 H 24 a 24 24 0 0 1 0 -48 z"/><g data-id="0W2XF=6?WmxUWkw1WDxK" data-argument-type="dropdown" data-shapes="argument round" transform="translate(201,8)"><path class="blocklyPath blocklyBlockBackground" stroke="#0c9770ff" fill="#0eaa7eff" fill-opacity="1" d="m 0,0 m 16,0 H 66 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"/><g class="blocklyEditableText" style="cursor: default;" transform="translate(8, 0) "><text class="blocklyText blocklyDropdownText" x="23" y="18" dominant-baseline="middle" dy="0" text-anchor="middle" style="fill: rgb(255, 255, 255) !important;">Width</text><image height="12px" width="12px" xlink:href="data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMi43MSIgaGVpZ2h0PSI4Ljc5IiB2aWV3Qm94PSIwIDAgMTIuNzEgOC43OSI+PHRpdGxlPmRyb3Bkb3duLWFycm93PC90aXRsZT48ZyBvcGFjaXR5PSIwLjEiPjxwYXRoIGQ9Ik0xMi43MSwyLjQ0QTIuNDEsMi40MSwwLDAsMSwxMiw0LjE2TDguMDgsOC4wOGEyLjQ1LDIuNDUsMCwwLDEtMy40NSwwTDAuNzIsNC4xNkEyLjQyLDIuNDIsMCwwLDEsMCwyLjQ0LDIuNDgsMi40OCwwLDAsMSwuNzEuNzFDMSwwLjQ3LDEuNDMsMCw2LjM2LDBTMTEuNzUsMC40NiwxMiwuNzFBMi40NCwyLjQ0LDAsMCwxLDEyLjcxLDIuNDRaIiBmaWxsPSIjMjMxZjIwIi8+PC9nPjxwYXRoIGQ9Ik02LjM2LDcuNzlhMS40MywxLjQzLDAsMCwxLTEtLjQyTDEuNDIsMy40NWExLjQ0LDEuNDQsMCwwLDEsMC0yYzAuNTYtLjU2LDkuMzEtMC41Niw5Ljg3LDBhMS40NCwxLjQ0LDAsMCwxLDAsMkw3LjM3LDcuMzdBMS40MywxLjQzLDAsMCwxLDYuMzYsNy43OVoiIGZpbGw9IiNmZmYiLz48L3N2Zz4=" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(50,11)"/></g></g><g transform="translate(16, 4) "><image height="40px" width="40px" xlink:href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+cGVuLWljb248L3RpdGxlPjxnIHN0cm9rZT0iIzU3NUU3NSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik04Ljc1MyAzNC42MDJsLTQuMjUgMS43OCAxLjc4My00LjIzN2MxLjIxOC0yLjg5MiAyLjkwNy01LjQyMyA1LjAzLTcuNTM4TDMxLjA2NiA0LjkzYy44NDYtLjg0MiAyLjY1LS40MSA0LjAzMi45NjcgMS4zOCAxLjM3NSAxLjgxNiAzLjE3My45NyA0LjAxNUwxNi4zMTggMjkuNTljLTIuMTIzIDIuMTE2LTQuNjY0IDMuOC03LjU2NSA1LjAxMiIgZmlsbD0iI0ZGRiIvPjxwYXRoIGQ9Ik0yOS40MSA2LjExcy00LjQ1LTIuMzc4LTguMjAyIDUuNzcyYy0xLjczNCAzLjc2Ni00LjM1IDEuNTQ2LTQuMzUgMS41NDYiLz48cGF0aCBkPSJNMzYuNDIgOC44MjVjMCAuNDYzLS4xNC44NzMtLjQzMiAxLjE2NGwtOS4zMzUgOS4zYy4yODItLjI5LjQxLS42NjguNDEtMS4xMiAwLS44NzQtLjUwNy0xLjk2My0xLjQwNi0yLjg2OC0xLjM2Mi0xLjM1OC0zLjE0Ny0xLjgtNC4wMDItLjk5TDMwLjk5IDUuMDFjLjg0NC0uODQgMi42NS0uNDEgNC4wMzUuOTYuODk4LjkwNCAxLjM5NiAxLjk4MiAxLjM5NiAyLjg1NU0xMC41MTUgMzMuNzc0Yy0uNTczLjMwMi0xLjE1Ny41Ny0xLjc2NC44M0w0LjUgMzYuMzgybDEuNzg2LTQuMjM1Yy4yNTgtLjYwNC41My0xLjE4Ni44MzMtMS43NTcuNjkuMTgzIDEuNDQ4LjYyNSAyLjEwOCAxLjI4Mi42Ni42NTggMS4xMDIgMS40MTIgMS4yODcgMi4xMDIiIGZpbGw9IiM0Qzk3RkYiLz48cGF0aCBkPSJNMzYuNDk4IDguNzQ4YzAgLjQ2NC0uMTQuODc0LS40MzMgMS4xNjVsLTE5Ljc0MiAxOS42OGMtMi4xMyAyLjExLTQuNjczIDMuNzkzLTcuNTcyIDUuMDFMNC41IDM2LjM4bC45NzQtMi4zMTYgMS45MjUtLjgwOGMyLjg5OC0xLjIxOCA1LjQ0LTIuOSA3LjU3LTUuMDFsMTkuNzQzLTE5LjY4Yy4yOTItLjI5Mi40MzItLjcwMi40MzItMS4xNjUgMC0uNjQ2LS4yNy0xLjQtLjc4LTIuMTIyLjI1LjE3Mi41LjM3Ny43MzcuNjE0Ljg5OC45MDUgMS4zOTYgMS45ODMgMS4zOTYgMi44NTYiIGZpbGw9IiM1NzVFNzUiIG9wYWNpdHk9Ii4xNSIvPjxwYXRoIGQ9Ik0xOC40NSAxMi44M2MwIC41LS40MDQuOTA1LS45MDQuOTA1cy0uOTA1LS40MDUtLjkwNS0uOTA0YzAtLjUuNDA3LS45MDMuOTA2LS45MDMuNSAwIC45MDQuNDA0LjkwNC45MDR6IiBmaWxsPSIjNTc1RTc1Ii8+PC9nPjwvc3ZnPg==" xmlns:xlink="http://www.w3.org/1999/xlink"/></g><g transform="translate(64, 4) "><line stroke="#0eaa7eff" stroke-linecap="round" x1="0" y1="0" x2="0" y2="40"/></g><text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="60" style="fill: rgb(255, 255, 255);" transform="translate(73, 24) ">get pen square's</text><path class="blocklyPath" style="visibility: hidden" d="" fill="#0c9770ff"/></g></svg>

@@ -13,6 +13,34 @@
   
   customElements.define("page-title", titleElement);
 
+  class infoBox extends HTMLElement {
+    constructor() {
+      super();
+    }
+
+    connectedCallback() {
+      console.log(this);
+
+      this.innerHTML = `<p style="margin:0;padding:0;">${this.innerHTML}</p>`;
+
+      this.style.display = "block";
+      this.style.padding = "8px";
+      this.style.margin = "8px 0";
+      this.style.borderRadius = "8px";
+      
+      if (this.getAttribute("color")) {
+        this.style.background = `${this.getAttribute("color")}3e`;
+        this.style.border = `1px solid ${this.getAttribute("color")}9a`;
+      }
+      else {
+        this.style.background = "rgba(0, 149, 255, 0.245)";
+        this.style.border = "1px solid rgba(0, 149, 255, 0.604)";
+      }
+    }
+  }
+  
+  customElements.define("info-box", infoBox);
+
 
   //Get the page path
   window.penPlusPath = window.location.origin + window.location.pathname;
