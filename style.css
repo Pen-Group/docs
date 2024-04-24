@@ -42,6 +42,30 @@ a:active {
   font-weight: 800;
 }
 
+button {
+  border-style: solid;
+  border-color: #00000000;
+  border-radius: 0.5rem;
+  border-width: 4px;
+  background-color: var(--background-3);
+  font-size: large;
+  color: var(--text-main);
+  cursor: pointer;
+  transition: all 150ms ease-in-out;
+}
+
+button:hover {
+  background-color: var(--background-1);
+  color: var(--link-hover);
+  cursor: pointer;
+}
+
+button:active {
+  background-color: var(--background-3);
+  color: var(--link-active);
+  cursor: pointer;
+}
+
 .penPlus-contents {
   margin-left: 50%;
   width: 50%;
