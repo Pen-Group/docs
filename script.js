@@ -3,7 +3,7 @@
 
   const searchParams = new URLSearchParams(window.location.search);
 
-  const page = searchParams.get("page");
+  const page = searchParams.get("page") || "main";
 
   fetch(`${docSource}${page}.html`).then(Response => {Response.text().then((dat) => {
     document.getElementById("documentContents").innerHTML = dat;
