@@ -28,3 +28,97 @@
   </div>
 </p>
 <br>
+
+<info-box color="#00ff95">Some attributes may only work on textured squares, if it has a (T) it is for only textured squares.</info-box>
+<h2>
+  "set triangle point [point]'s [attribute] to [value]"
+</h2>
+<img src="main/extensions/penPlus/blocks/triangleBlocks/setTrianglePointAttribute.svg" alt=""></img>
+<p>
+This block sets the attribute of the desired point on the triangle to the value desired. Even individual components of tints can be changed.
+<img src="main/extensions/penPlus/images/triangleExample.png">
+The different attributes include.
+<ul>
+  <li>(T)U value - The  horizontal point of the texture this point of the triangle samples from. UV's are a 0-1 range!</li>
+
+  <li>(T)V value - The vertical point of the texture this point of the triangle samples from. UV's are a 0-1 range!</li>
+
+  <li>Red Tint - Changes the amount of red that shows through a 1-100 range.</li>
+  <li>Green Tint - Changes the amount of green that shows through a 1-100 range.</li>
+  <li>Blue Tint - Changes the amount of blue that shows through a 1-100 range.</li>
+  <li>Transparency - Sets the transparency of the point will be interpolated to the other points.</li>
+  <li>Corner Pinch - Squishes the attributes of a point more to that corner relative to the other points. <img src="main/extensions/penPlus/images/cornerPinchExample.png"></li>
+  <li>Depth Value - Sets the depth in which the point will be rendered. Good for layering, or 3d effects.</li>
+</ul>
+</p>
+<br>
+
+<h2>
+  "set triangle's [attribute] to [value]"
+</h2>
+<img src="main/extensions/penPlus/blocks/triangleBlocks/setTriangleAttribute.svg" alt=""></img>
+<p>
+This block sets the attributes of a whole triangle more limited than setting each point individually.
+<ul>
+  <li>Red Tint - Changes the amount of red that shows through a 1-100 range.</li>
+  <li>Green Tint - Changes the amount of green that shows through a 1-100 range.</li>
+  <li>Blue Tint - Changes the amount of blue that shows through a 1-100 range.</li>
+  <li>Transparency - Sets the transparency of the point will be interpolated to the other points.</li>
+  <li>Depth Value - Sets the depth in which the point will be rendered. Good for layering, or 3d effects.</li>
+</ul>
+</p>
+<br>
+
+<h2>
+  "tint triangle point [id] to [color]"
+</h2>
+<img src="main/extensions/penPlus/blocks/triangleBlocks/setTriangleTintPoint.svg" alt=""></img>
+<p>
+Tints the point to the desired color.
+</p>
+<br>
+
+<h2>
+  "tint triangle to [color]"
+</h2>
+<img src="main/extensions/penPlus/blocks/triangleBlocks/setTriangleTint.svg" alt=""></img>
+<p>
+Tints the whole triangle to the desired color.
+</p>
+<br>
+
+<h2>
+  "get triangle point [id]'s [attribute]"
+</h2>
+<img src="main/extensions/penPlus/blocks/triangleBlocks/getTriangleAttribute.svg" alt=""></img>
+<p>
+Gets the value of a triangle's attribute
+</p>
+<br>
+
+<h2>
+  "reset triangle attributes"
+</h2>
+<img src="main/extensions/penPlus/blocks/triangleBlocks/resetTriangleAttribute.svg" alt=""></img>
+<p>
+Resets the attributes of a triangle to their default state.
+</p>
+<br>
+
+<h2>
+  "draw triangle between [x] [y], [x] [y], and [x] [y]"
+</h2>
+<img src="main/extensions/penPlus/blocks/triangleBlocks/drawTriangle.svg" alt=""></img>
+<p>
+Draws a triangle between the three points with your attributes.
+</p>
+<br>
+
+<h2>
+  "draw textured triangle between [x] [y], [x] [y], and [x] [y] with the texture [texture]"
+</h2>
+<img src="main/extensions/penPlus/blocks/triangleBlocks/drawTexTri.svg" alt=""></img>
+<p>
+  Draws a triangle between the three points with your attributes. With the texture/costume on it.
+</p>
+<br>
