@@ -1,0 +1,85 @@
+<page-title>Image Blocks</page-title>
+
+<h1 class="centered">Image Blocks</h1>
+<info-box color="#00FF95">If you are looking to render to a texture. Check out <a href="?page=extensions%2FpenPlus%2FrenderTextures">Render Textures</a>.</info-box>
+<p>
+    These blocks are blocks for simple image manipulation and importing! Some of these may seem trivial but have use cases that make them very useful.
+</p>
+<info-box color="#00FF95">Remember that your current image prefix effects the names of the images!.</info-box>
+
+<h2>
+    "add blank image"
+</h2>
+<img src="main/extensions/penPlus/blocks/imageBlocks/BlankImage.svg" alt=""></img>
+<p>Adds a blank image to the Pen+ costume library that can be used at any time. This image is of the specified color and size!</p>
+<br>
+
+<info-box color="#FF9500">
+    Some websites will block these image requests. Github and Google Icons are always safe bets.<br> 
+    You could also use the <a href="https://dog.ceo/dog-api/">dog api!</a>
+</info-box>
+<h2>
+    "add image from url"
+</h2>
+<img src="main/extensions/penPlus/blocks/imageBlocks/UrlImage.svg" alt=""></img>
+<p>This gets the image from the url and adds it to the Pen+ costume library. It will have the name you give to it.</p>
+<br>
+
+<h2>
+    "remove image"
+</h2>
+<img src="main/extensions/penPlus/blocks/imageBlocks/RemoveImage.svg" alt=""></img>
+<p>
+    Permantly deletes the desired image from the Pen+ costume library! Useful for images that are only temporary.<br>
+    Example : An image used to display a user's profile picture on a multiplayer game.</p>
+<br>
+
+<h2>
+    "does image exist"
+</h2>
+<img src="main/extensions/penPlus/blocks/imageBlocks/ImageExist.svg" alt=""></img>
+<p>A simple true or false value for if the image exists in the Pen+ costume library.</p>
+<br>
+
+<h2>
+    "get data uri for costume"
+</h2>
+<img src="main/extensions/penPlus/blocks/imageBlocks/getDataURICostume.svg" alt=""></img>
+<p>Returns the URI (or raw bit data in base 64) for a costume in scratch's costume library.</p>
+<br>
+
+<h2>
+    "get Pen+ costume size"
+</h2>
+<img src="main/extensions/penPlus/blocks/imageBlocks/costumeSize.svg" alt=""></img>
+<p>Returns the desired image's width or height in pixels.</p>
+<br>
+
+<info-box color="#FF1500">
+    Setting a pixel's color is done cpu side! So it will not be the fastest!
+</info-box>
+<h2>
+    "set pixel color"
+</h2>
+<img src="main/extensions/penPlus/blocks/imageBlocks/editPixels.svg" alt=""></img>
+<p>
+    Sets the pixel at the specified coordinate on the Pen+ costume to the specified color.<br>
+    The pixel coordinates start at (1,1) or the top left of the image and go down to the image's width and height, which would be the bottom right.
+</p>
+<br>
+
+<h2>
+    "get pixel color"
+</h2>
+<img src="main/extensions/penPlus/blocks/imageBlocks/getPixel.svg" alt=""></img>
+<p>
+    This block gets the color of the pixel at the desired coordinates on a Pen+ costume library image. The coordinate system is the same as the Set Pixel Color block.
+</p>
+<br>
+
+<h2>
+    "get data uri for Pen+ costume"
+</h2>
+<img src="main/extensions/penPlus/blocks/imageBlocks/getDataURICostume.svg" alt=""></img>
+<p>Returns the URI (or raw bit data in base 64) for a costume in Pen+'s costume library.</p>
+<br>
