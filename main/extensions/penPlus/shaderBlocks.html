@@ -1,0 +1,119 @@
+<page-title>Shader Blocks</page-title>
+
+<h1 class="centered">Shader Blocks</h1>
+<info-box color="#00FF95">This requires some basic knowledge of the shader editor and different variable types!</info-box>
+<p>
+    Into the meat and potatoes of the version 7 update.<br>
+    These blocks help the user interact with the shaders they made in the pen+ shader editor.<br>
+    The blocks are extremely powerful but harder to use, so you might want to read a tutorial.
+</p>
+
+<h2>Basic UI navigation</h2>
+<h3>Opening the editor</h3>
+<p>
+    Opening the editor is as simple as hitting the "Shader Editor" button under Advanced -> Custom Shaders.<br><br>
+    <img style=" width: 75%; height: auto; border-radius: 16px; filter: drop-shadow(0 0 10px var(--link-hover));" class="centered" src="main/extensions/penPlus/images/shaderEditorButton.png"></img>
+</p>
+<p>
+    Upon opening the shader editor you will be greeted with another version of scratch!<br>
+    Though this version of scratch has some unique differences.<br><br>
+    <img style=" width: 75%; height: auto; border-radius: 16px; filter: drop-shadow(0 0 10px var(--link-hover));" class="centered" src="main/extensions/penPlus/images/shaderEditorOpen.png"></img>
+</p>
+<h3>The top bar.</h3>
+<p>
+    First things first the top bar should be elaborated upon.<br>
+
+    The buttons on the left side of the screen will be used the most, so make sure to pay attention to this part.<br><br>
+    
+    <img style=" width: 50%; height: auto; border-radius: 16px; filter: drop-shadow(0 0 10px var(--link-hover));" class="centered" src="main/extensions/penPlus/images/topBar_Buttons.png"></img>
+    <ul>
+        <li>
+            The button with the legally distinct cat on it will close the shader editor. 
+            Remember there will be a warning before closing the editor, So always save before quitting!
+        </li>
+        <li>
+            The gear button is your options drop-down. Which will let you turn on dark mode and configure some settings for the editor, like auto compilation and block colors.
+        </li>
+        <li>
+            The middle icon which will be called the terminal icon will hide/show the stage and variable pane.
+        </li>
+        <li>
+            The badge is just a credits screen for the shader editor showing contributors and testers.
+        </li>
+        <li>
+            The final one, which has a floppy disc as it's icon, shows your file management options.<br><br>
+            Exporting and Importing allow you to edit and save shaders to your project!
+        </li>
+    </ul><br>
+
+    On the other side of the top bar is a mode switcher. This allows you to switch between the Scratch and GLSL editors.<br><br>
+    <img style=" width: 25%; height: auto; border-radius: 16px; filter: drop-shadow(0 0 10px var(--link-hover));" class="centered" src="main/extensions/penPlus/images/topBar_Mode.png"></img>
+</p>
+
+<h2>Back to actual scratch!</h2>
+<h2>
+    "shaders in project"
+</h2>
+<img src="main/extensions/penPlus/blocks/shaderBlocks/getShaders.svg" alt=""></img>
+<p>
+    Returns an array that contains a list of the project's shaders.<br>
+    An example would be <code>["Shader 1", "Shader 2"]</code>
+</p>
+<br>
+
+<h2>
+    "Draw triangle and square"
+</h2>
+<img src="main/extensions/penPlus/blocks/shaderBlocks/drawTriSquare.svg" alt=""></img>
+<p>
+    Acts the exact same as the draw triangle, and stamp pen square blocks. Except for the fact that is uses your custom shader.
+</p>
+<br>
+
+<info-box color="#00FF95">Shader variables are shader dependant. So multiple shaders can have the same variable names but different values!</info-box>
+<h2>
+    "Set uniform to value"
+</h2>
+<img src="main/extensions/penPlus/blocks/shaderBlocks/setUniforms.svg" alt=""></img>
+<p>
+    These blocks are lumped together due to the simple fact that they have a similar function but have different inputs.<br>
+    They can be broken down based upon type.
+    <ul>
+        <li>
+            Texture : Can be any image or image like object inside of Pen+, Scratch, or Any Addons.
+        </li>
+        <li>
+            Numbers : A simple one dimensional number. Depending on the variable's type it can have decimals.
+        </li>
+        <li>
+            Vectors : Multi Dimensional numbers that can be used for 3d and 2d effects.
+        </li>
+        <li>
+            Matrix : 2 Dimensional Numbers that are layed out on a grid. Typically used for cameras and transforms.<br>
+            Can either be set from a list or an array.
+        </li>
+        <li>
+            Cubemaps : 3d textures, Like a skybox.
+        </li>
+    </ul>
+    Of course these blocks have accompanying get uniform blocks.
+</p>
+<br>
+
+<h2>
+    "Set array item"
+</h2>
+<img src="main/extensions/penPlus/blocks/shaderBlocks/setArray.svg" alt=""></img>
+<p>
+    Sets the item in the desired array to the desired value! It has a similar typing system to the uniform blocks.
+</p>
+<br>
+
+<h2>
+    "Set attribute of point"
+</h2>
+<img src="main/extensions/penPlus/blocks/shaderBlocks/setAttribute.svg" alt=""></img>
+<p>
+    An attribute is a variable localized to one point of a triangle (sorry square users), these have a similar typing system to uniform blocks.
+</p>
+<br>
