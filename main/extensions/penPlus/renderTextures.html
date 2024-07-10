@@ -1,0 +1,99 @@
+<page-title>Render Textures</page-title>
+
+<h1 class="centered">Render Textures</h1>
+<info-box color="#00FF95">If you are looking for image manipulation blocks. Check out <a href="?page=extensions%2FpenPlus%2FimageBlocks">Image Blocks</a>.</info-box>
+
+<h2>What are render textures</h2>
+<p>
+    Render textures are images that you can render directly too, You may have seen them before in other programs.<br>
+    Some other names for them are
+    <ul>
+        <li>Framebuffers</li>
+        <li>Viewport Frames</li>
+        <li>Viewport Images</li>
+        <li>Screen Textures</li>
+    </ul><br>
+    You can think of a render texture as a secondary stage that you can use pen+ to draw to. And then use it as an image or texture.
+</p>
+<img class="centered" style=" width: 80%; height: auto; border-radius: 16px; filter: drop-shadow(0 0 10px var(--link-hover));" src="main/extensions/penPlus/images/RenderTextureExample.png"></img>
+<p>
+    Some uses for render textures are
+    <ul>
+        <li>Split Screens</li>
+        <li>Portals</li>
+        <li>Reflections</li>
+    </ul><br>
+    This picture demonstrates using render textures for portals. Image from Alltrue
+</p>
+<img class="centered" style=" width: 60%; height: auto; border-radius: 16px; filter: drop-shadow(0 0 10px var(--link-hover));" src="main/extensions/penPlus/images/portals.png"></img>
+<br>
+<br>
+<br>
+
+<info-box color="#FF5555">You cannot name a render texture "Scratch Stage".. sorry<br> You will see why later in the page.</info-box>
+<h2>
+    "Create render texture named [name]"
+</h2>
+
+<img src="main/extensions/penPlus/blocks/renderTextures/CreateRenderTexture.svg"></img>
+<p>
+    These two blocks both create a render texture. Though one creates a render texture of a fixed size while the other matches the stage size.<br>
+    Creating a render texture with the same name as an existing one will overwrite the existing one.
+</p>
+<br>
+
+
+<h2>
+    "Remove render texture named [name]"
+</h2>
+
+<img src="main/extensions/penPlus/blocks/renderTextures/deleteRenderTexture.svg"></img>
+<p>
+    This block deletes a render texture. That is it.
+</p>
+<br>
+
+
+<h2>
+    "Does render texture named [name] exist?"
+</h2>
+
+<img src="main/extensions/penPlus/blocks/renderTextures/doesRenderTextureExist.svg"></img>
+<p>
+    This block returns true if a render texture of the desired name exists.
+</p>
+<br>
+
+
+<h2>
+    "Render textures"
+</h2>
+
+<img src="main/extensions/penPlus/blocks/renderTextures/allRenderTextures.svg"></img>
+<p>
+    This block gives you an array of every render texture in the project.
+</p>
+<br>
+
+
+<h2>
+    "Render tris and squares to [render texture]"
+</h2>
+
+<img src="main/extensions/penPlus/blocks/renderTextures/setRenderTargets.svg"></img>
+<p>
+    This block makes any blocks that draw or clear triangles draw to your render texture or the stage.
+    Setting the render texture to "Scratch Stage" will return rendering back to the scratch stage!
+</p>
+<br>
+
+
+<h2>
+    "Clear pen from [render texture]"
+</h2>
+
+<img src="main/extensions/penPlus/blocks/renderTextures/clearPenFromRenderTexture.svg"></img>
+<p>
+    This block clears the render texture selected. Much like the "erase all" block!
+</p>
+<br>
