@@ -1,0 +1,44 @@
+<page-title>Tutorial : Shader Variables</page-title>
+
+<h1 class="centered">Variables within Shaders</h1>
+<p>
+    Did you know shaders could have variables in them? Let's go over creating a variable in our shader and setting it in scratch!<br><br>
+    <img style=" width: 80%; height: auto; border-radius: 16px; filter: drop-shadow(0 0 10px var(--link-hover));" class="centered" src="main/extensions/penPlus/images/tutorials/shaderVariables/Loading.gif"></img>
+    <br><br>
+    After re-opening our shader in the editor we want to go down to the variables category, then we click "Make a Variable"<br><br>
+    <img style=" width: 60%; height: auto; border-radius: 16px; filter: drop-shadow(0 0 10px var(--link-hover));" class="centered" src="main/extensions/penPlus/images/tutorials/shaderVariables/CreateVariable.png"></img>
+    <br><br>
+    Now a popup should appear letting us customize our variable! There are 3 Different components to a variable. It's name, type, and scope.<br>
+    The types can be summed up like this.
+    <ul>
+        <li>Float - A number</li>
+        <li>Vectors 2-4 - A number with multiple parts, like X,Y, and Z</li>
+        <li>Texture - A costume</li>
+        <li>Cubemap - A box with pictures on the sides</li>
+        <li>Matrix - A 2D list of numbers</li>
+    </ul>
+    And scopes can be summed up like this
+    <ul>
+        <li>Array - Lists</li>
+        <li>Uniforms - A global variable that we can set from scratch</li>
+        <li>Attribute - A variable for each point of a shape</li>
+        <li>Varying - Set on each vertex it smoothly transitions between pixels</li>
+        <li>Hat - A thread variable!</li>
+    </ul>
+    Lets create a Uniform Float
+    <br><br>
+    <img style=" width: 80%; height: auto; border-radius: 16px; filter: drop-shadow(0 0 10px var(--link-hover));" class="centered" src="main/extensions/penPlus/images/tutorials/shaderVariables/creatingVariable.gif"></img>
+    <br><br>
+    We can replace the "timer" block with our new variable. You may notice the "Uniforms/Arrays" button below our preview that will let us mess around with our new variable.
+    <br><br>
+    <img style=" width: 60%; height: auto; border-radius: 16px; filter: drop-shadow(0 0 10px var(--link-hover));" class="centered" src="main/extensions/penPlus/images/tutorials/shaderVariables/creatingVariable.gif"></img>
+    <img style=" width: 40%; height: auto; border-radius: 16px; filter: drop-shadow(0 0 10px var(--link-hover));" class="centered" src="main/extensions/penPlus/images/tutorials/shaderVariables/usingVariable.gif"></img>
+    <br><br>
+    Now lets export our shader again this time overriding our last one, unless you don't want to. Make sure you also have the variable name remembered.
+    I named mine Rainbow. Since we are using a Float we can use the "Set number" block.
+    <br><br>
+    <img style=" width: 80%; height: auto; border-radius: 16px; filter: drop-shadow(0 0 10px var(--link-hover));" class="centered" src="main/extensions/penPlus/images/tutorials/shaderVariables/SettingOurVariable.gif"></img>
+    <img style=" width: 80%; height: auto; border-radius: 16px; filter: drop-shadow(0 0 10px var(--link-hover));" class="centered" src="main/extensions/penPlus/images/tutorials/shaderVariables/InAction.gif"></img>
+    <br><br>
+    And that is it for now. Now go experiment!
+</p>

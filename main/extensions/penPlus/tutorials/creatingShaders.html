@@ -1,0 +1,98 @@
+<page-title>Tutorial : Your First Shader!</page-title>
+
+<h1 class="centered">Creating Your First Shader</h1>
+<p>
+    What do you typically think of when somebody says shader?<br>
+    Perhaps you might think of Minecraft Shaders<br><br>
+    <img class="centered" style=" width: 80%; height: auto; border-radius: 16px; filter: drop-shadow(0 0 10px var(--link-hover));" src="main/extensions/penPlus/images/tutorials/creatingShaders/RethinkingVoxels.png"></img>
+    <br><br>
+    While you are not wrong shaders don't always have to involve fancy lighting or graphical effects.<br>
+    In reality shaders are actually just a set of instructions we give the browser on how to draw things!<br>
+    <br>
+    So lets open up the shader editor! Scroll down in the toolbox until you see this button!<br><br>
+    <img class="centered" style=" width: 40%; height: auto; border-radius: 16px; filter: drop-shadow(0 0 10px var(--link-hover));" src="main/extensions/penPlus/images/tutorials/creatingShaders/ShaderButton.png"></img>
+    <br><br>
+    You may be greeted with a popup once you click the button. All you have to do is click allow.<br><br>
+    <img class="centered" style=" width: 60%; height: auto; border-radius: 16px; filter: drop-shadow(0 0 10px var(--link-hover));" src="main/extensions/penPlus/images/tutorials/creatingShaders/caution.png"></img>
+    <br><br>
+    
+    When the button is clicked a whole new editor appears! Isn't that neat?<br>
+    This is the Pen+ Shader editor!<br><br>
+    <img class="centered" style=" width: 80%; height: auto; border-radius: 16px; filter: drop-shadow(0 0 10px var(--link-hover));" src="main/extensions/penPlus/images/tutorials/creatingShaders/newEditor.png"></img>
+</p>
+
+<h2>Basic UI navigation</h2>
+<h3>The top bar.</h3>
+<p>
+    First things first the top bar should be elaborated upon.<br>
+
+    The buttons on the left side of the screen will be used the most, so make sure to pay attention to this part.<br><br>
+    
+    <img style=" width: 50%; height: auto; border-radius: 16px; filter: drop-shadow(0 0 10px var(--link-hover));" class="centered" src="main/extensions/penPlus/images/topBar_Buttons.png"></img>
+    <ul>
+        <li>
+            The button with the legally distinct cat on it will close the shader editor. 
+            Remember there will be a warning before closing the editor, So always save before quitting!
+        </li>
+        <li>
+            The gear button is your options drop-down. Which will let you turn on dark mode and configure some settings for the editor, like auto compilation and block colors.
+        </li>
+        <li>
+            The middle icon which will be called the terminal icon will hide/show the stage and variable pane.
+        </li>
+        <li>
+            The badge is just a credits screen for the shader editor showing contributors and testers.
+        </li>
+        <li>
+            The final one, which has a floppy disc as it's icon, shows your file management options.<br><br>
+            Exporting and Importing allow you to edit and save shaders to your project!
+        </li>
+    </ul><br>
+
+    On the other side of the top bar is a mode switcher. This allows you to switch between the Scratch and GLSL editors.<br><br>
+    <img style=" width: 25%; height: auto; border-radius: 16px; filter: drop-shadow(0 0 10px var(--link-hover));" class="centered" src="main/extensions/penPlus/images/topBar_Mode.png"></img>
+    <br><br>
+    But for now we will stick with scratch!<br><br>
+</p>
+<h2>Creating a basic rainbow shader!</h2>
+<p>
+    First things first let's drag out the "For each pixel" block.<br>
+    Once it is out in the workspace we might notice a shape appear<br>
+    It is ok if you have a different shape than mine.<br><br>
+    <img style=" width: 80%; height: auto; border-radius: 16px; filter: drop-shadow(0 0 10px var(--link-hover));" class="centered" src="main/extensions/penPlus/images/tutorials/creatingShaders/ItAppears.png"></img>
+    <br><br>
+
+    Now lets drag the "set pixel color" block under our "For each pixel block". And look at that our shape turned blue!
+    <br><br>
+    <img style=" width: 80%; height: auto; border-radius: 16px; filter: drop-shadow(0 0 10px var(--link-hover));" class="centered" src="main/extensions/penPlus/images/tutorials/creatingShaders/SetPixelColor.png"></img>
+    <br><br>
+    Now we can mess around with that color input to change the color of the shape!
+    <br><br>
+    <img style=" width: 80%; height: auto; border-radius: 16px; filter: drop-shadow(0 0 10px var(--link-hover));" class="centered" src="main/extensions/penPlus/images/tutorials/creatingShaders/ChangingColors.gif"></img>
+    <br><br>
+    
+    Let's make it change color on its own though!<br>
+    We can go into the colors category and drag out the "hue saturation and value" block!<br>
+    If we set the saturation and value to 100 we end up with a solid red shape!<br>
+    We can go into sensing and put the "timer" block in the hue input to have it change colors over time. Though you may want to multiply the timer by a number also.
+    <br><br>
+    <img style=" width: 80%; height: auto; border-radius: 16px; filter: drop-shadow(0 0 10px var(--link-hover));" class="centered" src="main/extensions/penPlus/images/tutorials/creatingShaders/AutoChanging.gif"></img>
+    <br><br>
+
+    But it really isn't a rainbow right now. But we can fix that!<br>
+    We can add the "Screen U" block to the "timer" block to make it change across the screen!
+    <br><br>
+    <img style=" width: 60%; height: auto; border-radius: 16px; filter: drop-shadow(0 0 10px var(--link-hover));" class="centered" src="main/extensions/penPlus/images/tutorials/creatingShaders/RainbowScript.png"></img>
+    <img style=" width: 80%; height: auto; border-radius: 16px; filter: drop-shadow(0 0 10px var(--link-hover));" class="centered" src="main/extensions/penPlus/images/tutorials/creatingShaders/AutoChangingRainbow.gif"></img>
+    <br><br>
+    Now we can export our shader to Scratch!<br>
+    Click the floppy disk and then click export! Then Name your shader and click save.<br><br>
+    <img style=" width: 80%; height: auto; border-radius: 16px; filter: drop-shadow(0 0 10px var(--link-hover));" class="centered" src="main/extensions/penPlus/images/tutorials/creatingShaders/Saving.gif"></img>
+    <br><br>
+
+    Now we can close the shader editor and head back to Scratch, and drag out the "Draw Triangle Using" block. Making sure it uses our new shader!<br><br>
+    <img style=" width: 60%; height: auto; border-radius: 16px; filter: drop-shadow(0 0 10px var(--link-hover));" class="centered" src="main/extensions/penPlus/images/tutorials/creatingShaders/NewTriangleBlock.png"></img>
+    <img style=" width: 80%; height: auto; border-radius: 16px; filter: drop-shadow(0 0 10px var(--link-hover));" class="centered" src="main/extensions/penPlus/images/tutorials/creatingShaders/UsingShader.gif"></img>
+    <br><br>
+    In the <a href="?page=extensions%2FpenPlus%2Ftutorials%2FshaderVariables">Next Tutorial</a> we will be going over variables in shaders!
+</p>
