@@ -1,0 +1,69 @@
+<page-title>List Blocks</page-title>
+
+<h1 class="centered">List Blocks</h1>
+<info-box color="#00FF95">If you are looking to render individual triangles. Check out <a href="?page=extensions%2FpenPlus%2FtriangleBlocks">Triangle Blocks</a>.</info-box>
+<p>
+    These blocks are for rendering triangles using lists.
+    Note that static meshes are better for rendering using this method.
+</p>
+<br>
+
+<h2>
+    How do I use these?
+</h2>
+<p>First things first you will want to create a list.</p>
+<div class="centered" style="width: 100%; height: 50%;">
+    <img style=" width: 40%; height: auto; border-radius: 16px; filter: drop-shadow(0 0 10px var(--link-hover));" src="main/extensions/penPlus/images/CreateAList.png"></img>
+    <img style=" width: 40%; height: auto; border-radius: 16px; filter: drop-shadow(0 0 10px var(--link-hover));" src="main/extensions/penPlus/images/EitherWorks.png"></img>
+</div>
+<p>Once your list is created you should see the list appear in the menu</p>
+<img class="centered" style=" width: 60%; height: auto; border-radius: 16px; filter: drop-shadow(0 0 10px var(--link-hover));" src="main/extensions/penPlus/images/ListShowsUp.png"></img>
+<p>Now here come the actual blocks</p>
+<br>
+
+<h2>
+    "Define Triangle"
+</h2>
+
+<img class="centered" style=" width: 80%; height: auto;" src="main/extensions/penPlus/blocks/listBlocks/defineSolidTri.svg"></img>
+<img class="centered" style=" width: 80%; height: auto;" src="main/extensions/penPlus/blocks/listBlocks/defineShadedTri.svg"></img>
+<p>These two blocks have the same purpose. But They have one unique difference.<br>
+one has inputs for UV values. If you want to learn about those go read the <a href="?page=extensions%2FpenPlus%2FtriangleBlocks">Triangle Blocks</a> page<br>
+Here is a video example of using the block</p>
+<img class="centered" style=" width: 80%; height: auto; border-radius: 16px; filter: drop-shadow(0 0 10px var(--link-hover));" src="main/extensions/penPlus/images/Gif Example.gif"></img>
+<br>
+<br>
+
+<h2>
+    "Set [attribute] of point [point] to [value] in [definition]"
+</h2>
+<img src="main/extensions/penPlus/blocks/listBlocks/editDefAttrib.svg"></img>
+<p>This block allows you to edit the attributes of a triangle definition. These attributes are the exact same as the ones on a normal triangle.<br>
+They are even stackable!</p>
+<img class="centered" style=" width: 80%; height: auto; border-radius: 16px; filter: drop-shadow(0 0 10px var(--link-hover));" src="main/extensions/penPlus/images/StackingAttributeSetters.png"></img>
+<br>
+<br>
+<br>
+
+<h2>
+    "Draw solid triangles from list [list]"
+</h2>
+<img src="main/extensions/penPlus/blocks/listBlocks/drawSolidTris.svg"></img>
+<p>This block simply draws the defined triangles in a list.</p>
+<br>
+
+<h2>
+    "Draw textured triangles from list [list] using [costume]"
+</h2>
+<img src="main/extensions/penPlus/blocks/listBlocks/drawTexturedTris.svg"></img>
+<p>This block draws textured triangles from a list.<br>
+If the list is missing UV info the block will not draw any triangles!</p>
+<br>
+
+<h2>
+    "Draw textured triangles from list [list] using [shader]"
+</h2>
+<img src="main/extensions/penPlus/blocks/listBlocks/drawShadedTris.svg"></img>
+<p>This block draws triangles from a list using the desired shader.<br>
+This even includes custom attributes added by the programmer! Like <a href="https://en.wikipedia.org/wiki/Normal_(geometry)">Normals</a>!</p>
+<br>
