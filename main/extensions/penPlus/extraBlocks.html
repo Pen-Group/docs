@@ -1,0 +1,110 @@
+<page-title>Extra Blocks</page-title>
+
+<h1 class="centered">Extra Blocks</h1>
+<info-box color="#00FF95">These blocks vary in usefulness most of them are just simple utility blocks.<br> They are not too important.</info-box>
+
+
+<h2>
+    "Pen+ version"
+</h2>
+
+<img src="main/extensions/penPlus/blocks/extra/PenVersion.svg"></img>
+<p>
+    This block gives you the current pen+ version. Some examples are<br>
+    <ul>
+        <li>7.1.5</li>
+        <li>8.0.0 β</li>
+    </ul>
+    The format typically goes like this<br>
+    [Major].[Minor].[Patch]<br><br>
+    Experimental versions will typically have a suffix appended to the end of it.
+    <ul>
+        <li>Experimental - Reserved for non specific experiments.</li>
+        <li>β (Beta) - An early version of a major update.</li>
+        <li>α (Alpha) - An almost complete version of a major update.</li>
+    </ul>
+</p>
+<br>
+
+
+<h2>
+    "Triangles drawn"
+</h2>
+
+<img src="main/extensions/penPlus/blocks/extra/TrianglesDrawn.svg"></img>
+<p>
+    This returns the amount of triangles drawn using Pen+,<br>please note that squares count as 2 triangles!
+</p>
+<br>
+
+
+<h2>
+    "Data uri of pen layer"
+</h2>
+
+<img src="main/extensions/penPlus/blocks/extra/DataURIofPenlayer.svg"></img>
+<p>
+    This returns the image data from the pen layer, good for screenshots!
+</p>
+<br>
+
+
+<h2>
+    "hide triangles that turn [direction]"
+</h2>
+
+<img src="main/extensions/penPlus/blocks/extra/HideTriangles.svg"></img>
+<p>
+    This hides triangles that orient themselves a certain way.<br>
+    The possible values can be
+    <ul>
+        <li>neither way - Never hides triangles</li>
+        <li>clock-wise - Hides triangles that are ordered in a clock-wise direction</li>
+        <li>counter clock-wise - Hides triangles that are ordered in a counter clock-wise direction</li>
+    </ul>
+    This can be used for <a href="https://en.wikipedia.org/wiki/Back-face_culling">back-face culling</a>!
+</p>
+<br>
+
+<h2>
+    "set triangle filter mode to [mode]"
+</h2>
+<img src="main/extensions/penPlus/blocks/extra/SetTextureFilterMode.svg" alt=""></img>
+<p>
+  Sets the filtering mode for textures<br>
+  You can think of these filter modes as a blur<br>
+  <div style="display: flex;">
+    <div style="width: 50%; margin: 0; text-align: center; border-right: 4px solid var(--background-3);">
+      <div>Closest looks like this (notice the sharp edges)</div>
+      <div><img style="width: 50%; height: auto; aspect-ratio: 1;" src="main/extensions/penPlus/images/Closest.png"></div>
+    </div>
+    <div style="width: 50%; margin: 0; text-align: center; border-left: 4px solid var(--background-3);">
+      <div>Linear looks like this (notice the how the image looks blurry now!)</div>
+      <div><img style="width: 50%; height: auto; aspect-ratio: 1;" src="main/extensions/penPlus/images/Linear.png"></div>
+    </div>
+  </div>
+</p>
+<br>
+
+<img src="main/extensions/penPlus/blocks/extra/TurnOnAdvancedSetting.svg"></img>
+<p>
+    This block allows you to enable/disable various settings in the Pen+ renderer.<br>
+    These settings can be
+    <ul>
+        <li>allow 'Corner Pinch < 1' - allows you to make the corner pinch value go below one</li>
+        <li>clamp depth value - stops the depth value from going below 1</li>
+    </ul>
+</p>
+<br>
+
+<img src="main/extensions/penPlus/blocks/extra/EraseDepth.svg"></img>
+<p>
+    Clears the depth buffer. Much like "Erase All" but without removing color! 
+</p>
+<br>
+
+<img src="main/extensions/penPlus/blocks/extra/SetPrefix.svg"></img>
+<p>
+    Allows you to change the prefix for any Pen+ texture type!
+</p>
+<br>
