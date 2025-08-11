@@ -13,14 +13,13 @@
   
   customElements.define("page-title", titleElement);
 
+  //Info boxes for displaying warnings or messages
   class infoBox extends HTMLElement {
     constructor() {
       super();
     }
 
     connectedCallback() {
-      console.log(this);
-
       this.innerHTML = `<p style="margin:0;padding:0;">${this.innerHTML}</p>`;
 
       this.style.display = "block";
@@ -41,6 +40,22 @@
   
   customElements.define("info-box", infoBox);
 
+  //Svg that is embedded and can be edited with CSS
+  class embeddedSVG extends HTMLElement {
+    constructor() {
+      super();
+    }
+
+    connectedCallback() {
+      console.log("Hello world")
+      console.log(this.getAttribute("src"));
+      fetch(this.getAttribute("src")).then(response => response.text()).then(text => {
+        this.innerHTML = text;
+      })
+    }
+  }
+  
+  customElements.define("embedded-svg", embeddedSVG);
 
   //Get the page path
   window.penPlusPath = window.location.origin + window.location.pathname;
